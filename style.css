@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Handjet", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.s1{
+    width: 100%;
+    height: 100vh;
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+.ss1{
+    width: 100%;
+    height: 8000px;
+    background-color: #1e1e1e;
+    overflow: hidden; 
+}
+
+.headd{
+    height: 110px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    width: 300px;
+    background-color: #141414cd;
+    border-radius: 0 0 50px 50px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 999;
+    position: fixed;
+    padding: 0;
+    height: 105px;
+}
+.logo>a>h1{
+    color: #551A8B;
+    font-size: 60px;
+    font-family: Madimi One;
+
+}
+.mobile-banner{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+#home{
+    color: #551A8B;
+    font-size: 60px;
+}
+#games{
+    color: #551A8B;
+    font-size: 60px;
+}
+#apps{
+    color: #551A8B;
+    font-size: 60px;
+}
+.m-banner{
+    width: 500px;
+    background-color: #141414cd;
+    border-radius:  50px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    z-index: 999;
+    top: 700px;
+    position: fixed;
+    padding: 0;
+    height: 105px; 
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.col-banner{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: 30px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    align-content: space-around;
+    width: 400px;
+    height: 100%;
+    font-size: 30px;
+    background-color: #000000d6;
+    text-decoration: none;
+    color: #551A8B;
+    border-radius: 30px;
+}
+.banner>a{
+    text-decoration: none;
+    color: #551A8B;
+}
+.txt-apps{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-apps h1{
+    font-size: 80px;
+    color: #551A8B;
+}
+.txt-apps h4{
+    font-size: 40px;
+    color: gold;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    background-color: #441571;
+    border-radius: 10px 10px 50% 50%;
+    height: 50px;
+    width: 129px;
+    text-align: center;
+}
+.txt-apps>a>h4:hover{
+    height: 70px;
+    transition: 0.9s;
+    color: #551A8B;
+    background-color: gold;
+}
+.txto-apps{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.txto-apps h1{
+    font-size: 80px;
+    color: #551A8B;
+}
+.li1:hover,.li2:hover,.li3:hover{
+    color: rgb(228, 194, 3);
+    transition: 0.7s;
+}
+#apps:hover,#games:hover,#home:hover{
+    color: rgb(228, 194, 3);
+    transition: 0.7s;
+}
+
+
+#mainDiv {
+    width: 98%; /* عرض الشاشة بالكامل */
+    height: 167px; /* طول العرض الرئيسي */    
+    white-space: nowrap; /* منع العناصر من الانتقال إلى سطر جديد */
+    position: relative;
+    margin: 15px;
+    top: 50px;
+    background-color: #441571;
+    border-radius: 20px 20px;
+    margin: 15px;
+    padding: 12px;justify-content: space-between;
+
+    display: flex;
+}
+.childDiv {
+    width: 140px;
+    height: 140px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    display: inline-block; /* عرض العناصر بجانب بعضها البعض */
+    margin-right: 10px; /* هامش عن يمين العنصر السابق */
+    border-radius: 15px;
+    border: none;
+
+}   
+.childDiv:hover{
+    scale: 1.1;
+    transition: 0.9s;
+}     
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.s2{
+    width: 100%;
+    height: 100vh;
+    background-color: #1d1d1c;
+    overflow: hidden;
+
+}
+.txt-games{
+    position: relative;
+    left: 20px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-games h1{
+    font-size: 80px;
+    color: #551A8B;
+}
+.txt-games h4{
+    font-size: 40px;
+    color: gold;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    background-color: #441571;
+    border-radius: 10px 10px 50% 50%;
+    height: 50px;
+    width: 129px;
+    text-align: center;
+}
+.txt-games>a>h4:hover{
+    height: 70px;
+    transition: 0.9s;
+    color: #551A8B;
+    background-color: gold;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1024px){
+
+    #mainDiv{
+        width: 100%; /* عرض الشاشة بالكامل */
+        height: 200px; /* طول العرض الرئيسي */   
+        overflow-x: scroll; 
+        white-space: nowrap; /* منع العناصر من الانتقال إلى سطر جديد */
+        position: relative;
+        margin: 15px;
+        top: 50px;
+    }
+    
+}
+@media only screen and (max-width: 800px){
+    .mobile-banner{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+    }
+    .m-banner{
+        width: 500px;
+        background-color: #141414cd;
+        border-radius:  50px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        z-index: 999;
+
+        position: fixed;
+        padding: 0;
+        height: 100px; 
+        font-size: 30px;
+        visibility: visible;
+    }
+    .banner{
+        visibility: hidden;
+    }
+    .logo{
+        position: static;
+    }
+}
+@media only screen and (max-width: 480px){
+    .m-banner{
+        width: 350px;
+    }
+}
